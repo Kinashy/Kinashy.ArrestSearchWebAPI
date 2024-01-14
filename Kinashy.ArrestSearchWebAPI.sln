@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinashy.ArrestSearchWebAPI", "Kinashy.ArrestSearchWebAPI\Kinashy.ArrestSearchWebAPI.csproj", "{20E428DC-902E-478A-AD19-CFC963B0A3EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samba", "Samba\Samba.csproj", "{EB9EAA4E-809E-4A00-BA6D-8E8D88655311}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{CF157828-3887-4BFA-9A40-01B8E0E55ADE}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20E428DC-902E-478A-AD19-CFC963B0A3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E428DC-902E-478A-AD19-CFC963B0A3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E428DC-902E-478A-AD19-CFC963B0A3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E428DC-902E-478A-AD19-CFC963B0A3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9EAA4E-809E-4A00-BA6D-8E8D88655311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9EAA4E-809E-4A00-BA6D-8E8D88655311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9EAA4E-809E-4A00-BA6D-8E8D88655311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9EAA4E-809E-4A00-BA6D-8E8D88655311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC3061AC-0BC0-4D25-BCCB-45A73668D039}
+	EndGlobalSection
+EndGlobal
